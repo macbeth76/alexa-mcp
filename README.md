@@ -151,6 +151,7 @@ requires an explicit `confirm: true` argument.
 |---|---|---|
 | `ALEXA_MCP_AMAZON_PAGE` | `amazon.de` | Login region (e.g. `amazon.com`, `amazon.co.uk`) |
 | `ALEXA_MCP_ACCEPT_LANGUAGE` | `de-DE` | Accept-Language header |
+| `ALEXA_MCP_PROXY_LANGUAGE` | `en_US` | `language=` param on the proxy login page (e.g. `de_DE`) |
 | `ALEXA_MCP_PROXY_IP` | `127.0.0.1` | Must match the URL you open during login |
 | `ALEXA_MCP_PROXY_PORT` | `3456` | Proxy port for the login |
 | `ALEXA_MCP_PROXY_BIND` | `0.0.0.0` | Proxy bind address |
